@@ -1,0 +1,20 @@
+{
+  "name": "inpac",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "3D viewer of underground infrastructure in Singapore. Demonstration-grade clash-detection viewer for urban planners.",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "proj4": "^2.12.1"
+  },
+  "devDependencies": {
+    "@types/proj4": "^2.5.5",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}
